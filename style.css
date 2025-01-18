@@ -75,3 +75,124 @@ footer {
 .project a:hover {
     text-decoration: underline;
 }
+
+/*-----------------------------------------------------------*/
+/* css Enhancement */
+
+/* General styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+ header {
+    background-color: linear-gradient(90deg, #4caf50, #2e7d32);
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+ }
+
+ header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 1rem 0 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c8e6c9;
+}
+
+/* section */
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 2rem;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4caf50;
+    margin-bottom: 1rem;
+    border-width: 1rem;
+}
+
+/* footer */
+
+footer {
+    background: #2e7d32;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* ---------------------------------------------------*/
+
+.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-theme header {
+    background: linear-gradient(90deg, #1b5e20, #388e3c);
+}
+
+.dark-theme section {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme footer {
+    background: #1b5e20;
+}
+
+/* ------------------------Add Mobile responsiveness---------------------- */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+}
