@@ -39,3 +39,39 @@ footer {
     background: #333;
     color: #fff;
 }
+
+/* About Me Section*/
+#about {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* projects section */
+#project {
+    padding: 2rem;
+}
+
+.project {
+     border: 1px solid #ddd;
+     padding: 1rem;
+     margin-bottom: 1rem;
+     border-radius: 5px;
+     background-color: #fff;
+}
+
+.project h3 {
+    margin: 0 0 0.5rem;
+    color: #333;
+}
+
+.project a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
